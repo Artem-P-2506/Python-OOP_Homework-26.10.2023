@@ -1,4 +1,4 @@
-from Materials_Guns.Materials.Material import *
+from Materials.Material import *
 
 class Leather(Material):
     def __init__(self):

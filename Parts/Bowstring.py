@@ -1,12 +1,5 @@
-from Materials_Guns.Materials import *
+from Parts.Part import *
 
-class Bowstring:
-    def __init__(self, material, weight):
-        self._material = material
-        self._weight = weight
-
-    def getMaterial(self):
-        return self._material
-
-    def getWeight(self):
-        return self._weight
+class Bowstring(Part):
+    def __init__(self):
+        super().__init__(Thread(), 300)

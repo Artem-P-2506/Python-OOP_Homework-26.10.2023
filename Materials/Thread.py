@@ -1,4 +1,4 @@
-from Materials_Guns.Materials.Material import *
+from Materials.Material import *
 
 class Thread(Material):
     def __init__(self):
